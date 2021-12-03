@@ -13,6 +13,10 @@ html{
     line-height: 1.8;
 }
 
+body{
+    background-color: #cccccc;
+}
+
 .wrapper{
     margin: 0 65px 0 60px;
 }
