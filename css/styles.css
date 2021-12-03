@@ -18,7 +18,43 @@ body{
 }
 
 .wrapper{
-    margin: 0 65px 0 60px;
+    background-color: white;
+    margin: 0 auto;
+    max-width: 1795px;
+    padding: 0 40px;
+}
+
+header{
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+
+}
+
+ul.main-menu{
+    list-style: none;
+}
+
+ul.socials{
+    list-style: none;
+    color: #4e4b4b;
+}
+
+li.menu-item{
+    display: inline-block;
+}
+
+li.menu-item a{
+    color: #4e4b4b;
+}
+
+li.social-item a{
+    color: #4e4b4b;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -58,4 +94,23 @@ button{
     color: white;
     background-color: #ca404f;
     line-height: 42px;
+}
+
+main{
+    padding: 0 60px 0 60px;
+}
+
+.recepten{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.recept{
+    width: 1040px;
+}
+
+.recept-items{
+    width: 485px;
+
 }
